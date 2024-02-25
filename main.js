@@ -1,4 +1,4 @@
-// для плавних появлень div/head
+// для плавних появлень div
 let Header = document.getElementById("header")
 
 let options = {
