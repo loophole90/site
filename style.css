@@ -209,7 +209,7 @@ i {
 
     .zerotext{
         height: auto;
-        width: 350px;
+        width: 360px;
     }
     
     .onetext{
@@ -234,7 +234,7 @@ i {
     
     .fivetext{
         height: auto;
-        width: 350px;
+        width: 360px;
     }
 
 }
@@ -242,32 +242,64 @@ i {
 @media screen and (max-width: 768px) and (min-height: 1024px) {
     .zerotext{
         height: auto;
-        width: 66vw;
+        width: 85vw;
     }
     
     .onetext{
         height: auto;
-        width: 66vw;
+        width: 78vw;
     }
     
     .twotext{
         height: auto;
-        width: 66vw;
+        width: 78vw;
     }
     
     .threetext{
         height: auto;
-        width: 66vw;
+        width: 78vw;
     }
     
     .fourtext{
         height: auto;
-        width: 66vw;
+        width: 78vw;
     }
     
     .fivetext{
         height: auto;
-        width: 66vw;
+        width: 85vw;
+    }
+}
+
+@media screen and (max-height: 1368px){
+    .zerotext{
+        height: auto;
+        width: 85vw;
+    }
+    
+    .onetext{
+        height: auto;
+        width: 78vw;
+    }
+    
+    .twotext{
+        height: auto;
+        width: 78vw;
+    }
+    
+    .threetext{
+        height: auto;
+        width: 78vw;
+    }
+    
+    .fourtext{
+        height: auto;
+        width: 78vw;
+    }
+    
+    .fivetext{
+        height: auto;
+        width: 85vw;
     }
 }
 
