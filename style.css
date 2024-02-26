@@ -30,7 +30,7 @@ body{
 /* Header */
 header{
     width: 100%;
-    height: 15vw;
+    height: 6.5vw;
     background-color: rgb(242, 129, 0);
     position: relative;
     transition: all 4s;
@@ -89,8 +89,8 @@ i {
 
 .down-button{
     background-color: #6a6a6a;
-    min-width: 100px;
-    min-height: 100px;
+    width: 100px;
+    height: 100px;
     border-radius: 360px;
     margin: 0 auto;
     margin-bottom: 200px;
@@ -237,6 +237,30 @@ i {
         width: 360px;
     }
 
+    .down-button{
+        width: 50px;
+        height: 50px;
+    }
+
+    i{
+        border-width: 0 5px 5px 0;
+    }
+
+    .down-button:active > i{
+        border: solid #49d649;
+        border-width: 0 5px 5px 0;
+        display: inline-block;
+        padding: 10px;
+        
+    }
+    
+    .down-button:active{
+        border: #49d649 solid;
+    }
+    header{
+        height: 15vw;
+    }
+
 }
 
 @media screen and (max-width: 768px) and (min-height: 1024px) {
@@ -270,44 +294,3 @@ i {
         width: 85vw;
     }
 }
-
-@media screen and (max-height: 1368px){
-    .zerotext{
-        height: auto;
-        width: 85vw;
-    }
-    
-    .onetext{
-        height: auto;
-        width: 78vw;
-    }
-    
-    .twotext{
-        height: auto;
-        width: 78vw;
-    }
-    
-    .threetext{
-        height: auto;
-        width: 78vw;
-    }
-    
-    .fourtext{
-        height: auto;
-        width: 78vw;
-    }
-    
-    .fivetext{
-        height: auto;
-        width: 85vw;
-    }
-}
-
-/* .block, .titleBlock{
-    gap: 50px;
-    justify-content: center;
-    display: flex;
-    margin-top: 30px;
-    z-index: -2;
-    align-items: center;
-} */
