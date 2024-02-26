@@ -30,11 +30,12 @@ body{
 /* Header */
 header{
     width: 100%;
-    height: 100px;
+    height: 10vh;
     background-color: rgb(242, 129, 0);
     position: relative;
-    transition: all 2s;
-    border-bottom: 5px solid#da6900;
+    transition: all 4s;
+    border-bottom: 0.5vh solid #da6900;
+    opacity: 0;
 }
 
 .title{
@@ -42,7 +43,7 @@ header{
     font-weight: 400;
     font-style: normal;
     margin-top: 200px;
-    font-size: 4rem;
+    font-size: 4vw;
 
 }
 
@@ -56,14 +57,15 @@ header{
 .fullscreen{
     background-color: #fe8718;
     display: flex;
-    min-height: 100vh;
+    height: 100vh;
     flex-direction: column;
 }
 
 .fullscreen__body{
     flex: 1 1 auto;
     text-align: center;
-    max-width: 1000px;
+    width: 100vh;
+    height: 100vh;
     margin: 0px auto;
     display: flex;
     justify-content: center;
@@ -136,42 +138,112 @@ i {
 
 .p{
     background-color: #f07400;
-    border-radius: 20px;
+    border-radius: 2vw;
     text-align: center;
-    font-size: 2rem;
-    padding: 8px 8px 8px 8px;
+    font-size: 1.6vw;
+    padding: 2vh 2vw;
     position: relative;
-    transition: opacity 1.8s;
-    opacity: 0.4;
+    transition: opacity 1s;
+    opacity: 0.2;
 }
 
 /* text */
 .zerotext{
-    height: 380px;
-    width: 1250px;
+    height: 14vw;
+    width: 65vw;
 }
 
 .onetext{
-    height: 290px;
-    width: 600px;
+    height: 15vw;
+    width: 31vw;
 }
 
 .twotext{
-    height: 290px;
-    width: 600px;
+    height: 15vw;
+    width: 31vw;
 }
 
 .threetext{
-    height: 290px;
-    width: 600px;
+    height: 15vw;
+    width: 31vw;
 }
 
 .fourtext{
-    height: 290px;
-    width: 600px;
+    height: 15vw;
+    width: 31vw;
 }
 
 .fivetext{
-    height: 210px;
-    width: 1250px;
+    height: 11vw;
+    width: 65vw;
 }
+
+/* Media  */
+
+@media screen and (max-width: 768px) {
+    .titleBlock{
+        margin-top: 10px;
+    }
+    .block{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 8px;
+    }
+    
+    .p{
+        margin-top: 8px;
+    }
+    
+    .pa{
+        font-size: 3vw !important;
+    }
+
+    .title{
+        font-size: 8vw !important;
+    }
+
+    .zerotext{
+        height: auto;
+        width: 350px;
+    }
+    
+    .onetext{
+        height: auto;
+        width: 350px;
+    }
+    
+    .twotext{
+        height: auto;
+        width: 350px;
+    }
+    
+    .threetext{
+        height: auto;
+        width: 350px;
+    }
+    
+    .fourtext{
+        height: auto;
+        width: 350px;
+    }
+    
+    .fivetext{
+        height: auto;
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    /* Додаткові стилі для екранів з шириною до 480px */
+}
+
+/* .block, .titleBlock{
+    gap: 50px;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    z-index: -2;
+    align-items: center;
+} */
