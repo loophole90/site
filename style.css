@@ -30,7 +30,7 @@ body{
 /* Header */
 header{
     width: 100%;
-    height: 10vh;
+    height: 15vw;
     background-color: rgb(242, 129, 0);
     position: relative;
     transition: all 4s;
@@ -239,8 +239,36 @@ i {
 
 }
 
-@media screen and (max-width: 480px) {
-    /* Додаткові стилі для екранів з шириною до 480px */
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+    .zerotext{
+        height: auto;
+        width: 66vw;
+    }
+    
+    .onetext{
+        height: auto;
+        width: 66vw;
+    }
+    
+    .twotext{
+        height: auto;
+        width: 66vw;
+    }
+    
+    .threetext{
+        height: auto;
+        width: 66vw;
+    }
+    
+    .fourtext{
+        height: auto;
+        width: 66vw;
+    }
+    
+    .fivetext{
+        height: auto;
+        width: 66vw;
+    }
 }
 
 /* .block, .titleBlock{
